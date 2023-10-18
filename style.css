@@ -84,6 +84,28 @@ body{
 .toggle{
     width: 40px;
     height: 20px;
-    
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+}
+.toggle-ball{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
+}
+
+.profile-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    line-height: 1;
 }
 
