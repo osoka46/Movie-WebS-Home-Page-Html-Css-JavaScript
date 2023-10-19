@@ -64,9 +64,9 @@ body{
     font-weight: bolder;
 }
 .profile-foto{
-    width: 32px;
-    height: 32px;
-    image-rendering: -webkit-optimize-contrast;
+    width: 35px;
+    height: 35px;
+    image-rendering: -webkit-optimize;
     border-radius: 50px;
 }
 .profile-container{
