@@ -148,6 +148,7 @@ body{
     background-color: rgba(255, 255, 255, 0.5);
     padding: 10px;
     margin: 30px 0;
+    color: black;
     text-align: justify;
 }
 .featured-buttons{
@@ -258,13 +259,25 @@ body{
 }
 
 .movie-list-wrapper{
-    overflow-y: hidden;
+    overflow: hidden;
+    position: relative;
 }
 
 
 
 
 
-
+.bi-chevron-right{
+    font-size: 180px;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+.bi-chevron-right:hover{
+    opacity: 0.9;
+}
 
 /* movie list container ends */
