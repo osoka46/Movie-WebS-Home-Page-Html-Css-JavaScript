@@ -202,8 +202,9 @@ body{
     list-style: none;
     height: 300px;
     display: flex;
-    column-gap: 20px;
+    column-gap: 30px;
     transform: translateX(0);
+    transition: ease-in-out 1s;
 }
 
 .movie-item{
@@ -281,5 +282,36 @@ body{
 .bi-chevron-right:hover{
     opacity: 0.9;
 }
-
 /* movie list container ends */
+/* light mode starts */
+.container.active{
+    background: white;
+}
+.sidebar.active{
+    background: white;
+}
+.sidebar i.active{
+    color: black;
+}
+.navbar.active{
+    background: white;
+}
+.menu-list li a.active{
+    color: black;
+}
+.movie-list-title.active{
+    color: black;
+}
+.toggle.active{
+    background: black;
+}
+.toggle-ball.active{
+    background: white;
+    transform: translateX(-20px);
+}
+.profile-text.active{
+     color: black;
+}
+
+
+/* light mode ends */
