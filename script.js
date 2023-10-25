@@ -14,6 +14,7 @@ arrows.forEach((arrow,index)=>{
             movieList[index].style.transform=`translateX(${movieList[index].computedStyleMap().get('transform')[0].x.value-300}px)`;
         }else{
             movieList[index].style.transform='translateX(0)';
+            clickCounter=0;
         }
     });
 });

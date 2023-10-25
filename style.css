@@ -85,6 +85,7 @@ body{
     align-items: center;
     border-radius: 30px;
     position: relative;
+ 
 }
 .toggle-ball{
     width: 18px;
@@ -94,6 +95,7 @@ body{
     cursor: pointer;
     position: absolute;
     right: 1px;
+    transition: all 0.5;
 }
 
 .profile-text-container{
